@@ -1,0 +1,25 @@
+.footer {
+    display: grid;
+    grid-column: 1/37;
+    grid-row: 30/37;
+
+    grid-template-columns: repeat(36, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/bottom.png");
+    background-size: cover;
+    background-position: center;
+
+    overflow: hidden;
+}
+
+.footer-sign {
+    display: grid;
+
+    grid-column: 31/36;
+    grid-row: 4/5;
+
+    color: rgb(255, 255, 255);
+    text-align: right;
+}

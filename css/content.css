@@ -1,0 +1,53 @@
+.content-top {
+    grid-column: 9/29;
+    grid-row: 8/11;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(80, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    grid-column: 9/29;
+    grid-row: 11/27;
+}
+
+.content-bottom {
+    grid-column: 1/29;
+    grid-row: 27/30;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.content-text {
+    grid-column: 6/74;
+    grid-row: 2/10;
+
+    font-family: Garamond;
+    font-size: 22px;
+}
+
+.contacts-first-block {
+    grid-column: 8/26;
+    grid-row: 2/12;
+}
+
+.contacts-second-block {
+    grid-column: 31/49;
+    grid-row: 2/12;
+}
+.contacts-third-block {
+    grid-column: 54/72;
+    grid-row: 2/12;
+}

@@ -1,0 +1,36 @@
+.aside-left {
+    display: grid;
+    grid-column: 1/9;
+    grid-row: 8/27;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.aside-sub-left {
+    grid-column: 2/6;
+    grid-row: 2/12;
+
+    overflow: hidden;
+}
+
+.aside-right {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    grid-column: 29/37;
+    grid-row: 8/30;
+}
+
+.aside-sub-right {
+    grid-column: 2/6;
+    grid-row: 2/12;
+
+    overflow: hidden;
+}
+
+.menu-text {
+    font-family: Garamond;
+    font-size: 19px;
+}

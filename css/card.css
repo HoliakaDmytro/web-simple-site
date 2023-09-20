@@ -1,0 +1,123 @@
+.first-card-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+
+    grid-column: 1/7;
+    grid-row: 1/5;
+}
+
+.second-card-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+
+    grid-column: 1/7;
+    grid-row: 1/5;
+}
+
+.third-card-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+
+    grid-column: 1/7;
+    grid-row: 1/5;
+}
+
+.picture {
+    max-width: 100%;
+
+    background-color: rgb(146, 162, 233);
+}
+
+.first-card > div {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.second-card > div {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.third-card > div {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.first-card {
+    display: grid;
+    grid-column: 8/26;
+    grid-row: 2/12;
+
+    background-color: rgb(146, 162, 233);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 10px;
+}
+
+.second-card {
+    display: grid;
+    grid-column: 31/49;
+    grid-row: 2/12;
+
+    background-color: rgb(146, 162, 233);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 10px;
+}
+
+.third-card {
+    display: grid;
+    grid-column: 54/72;
+    grid-row: 2/12;
+
+    background-color: rgb(146, 162, 233);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 10px;
+}
+
+.card-text {
+    display: grid;
+    grid-column: 2/6;
+    grid-row: 5/6;
+
+    place-items: center;
+    color: rgb(23, 40, 54);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(62, 71, 105);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    font-family: Garamond;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.card-button {
+    grid-column: 3/5;
+    grid-row: 6/7;
+
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: rgba(62, 71, 105, 0.6);
+}

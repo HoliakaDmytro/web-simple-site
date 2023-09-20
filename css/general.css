@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(36, 1fr);
+    grid-template-rows: repeat(36, 1fr);
+    background-color: rgb(62, 71, 105);
+    height: 100vh;
+}
+
+.container > div {
+    background-color: rgb(226, 230, 250);
+    margin: 1px;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.without-underscore {
+    text-decoration: none;
+}
+
+.contacts-padding {
+    padding-left: 50px;
+}
