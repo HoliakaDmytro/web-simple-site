@@ -11,7 +11,7 @@
     grid-column: 2/6;
     grid-row: 2/12;
 
-    overflow: hidden;
+    overflow: auto;
 }
 
 .aside-right {
@@ -27,7 +27,7 @@
     grid-column: 2/6;
     grid-row: 2/12;
 
-    overflow: hidden;
+    overflow: auto;
 }
 
 .menu-text {

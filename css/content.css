@@ -32,22 +32,30 @@
 
 .content-text {
     grid-column: 6/74;
-    grid-row: 2/10;
+    grid-row: 2/12;
 
     font-family: Garamond;
     font-size: 22px;
+
+    overflow: auto;
 }
 
 .contacts-first-block {
     grid-column: 8/26;
     grid-row: 2/12;
+
+    overflow: auto;
 }
 
 .contacts-second-block {
     grid-column: 31/49;
     grid-row: 2/12;
+
+    overflow: auto;
 }
 .contacts-third-block {
     grid-column: 54/72;
     grid-row: 2/12;
+
+    overflow: auto;
 }
